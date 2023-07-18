@@ -11,6 +11,9 @@
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    
+  <script defer src="/assets/js/api.js"></script>
+  <script defer src="/assets/js/main.js"></script>
   
 
   <style>
@@ -24,6 +27,16 @@
     h6 {
       font-family: "Roboto", sans-serif
     }
+
+    footer{
+      max-width: 100%;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+ 
   </style>
 
 </head>
@@ -44,30 +57,34 @@
             <h2 class="name">Carregando...</h2>
           </div>
           <div class="w3-container">
-            <p class="job"><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-indigo"></i></p>
-            <p class="location"><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-indigo"></i>Araraquara-SP, Brasil</p>
-            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-indigo"></i>falvojr@gmail.com</p>
-            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-indigo"></i>(16) 99721-8281</p>
+            <p class="job">Carregando...</p>
+            <p class="location">Carregando...</p>
+            <p class="email" >Carregando...</p>
+            <p class="phone">Carregando...</p>
             <hr>
 
             <p class="w3-large">
               <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Skills</b>
             </p>
-            <p>Java</p>
+            <p class="hardSkills">JavaScript</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
               <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:100%">100%</div>
             </div>
-            <p>Android</p>
+            <p class="hardSkills">TypeScript</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:80%">80%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:100%">80%</div>
             </div>
-            <p>Koltin</p>
+            <p>HTML5</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:70%">70%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:80%">100%</div>
             </div>
-            <p>Spring Framework</p>
+            <p>CSS</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:70%">70%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:70%">80%</div>
+            </div>
+            <p>Angular</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:70%">60%</div>
             </div>
             <br>
 
@@ -80,11 +97,7 @@
             </div>
             <p>Inglês</p>
             <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-indigo" style="height:24px;width:60%"></div>
-            </div>
-            <p>Espanhol</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-indigo" style="height:24px;width:25%"></div>
+              <div class="w3-round-xlarge w3-indigo" style="height:24px;width:20%"></div>
             </div>
             <br>
           </div>
@@ -97,13 +110,19 @@
       <div class="w3-twothird">
 
         <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i
-              class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Sobre</h2>
-          <p>Doutorando na Universidade de São Paulo (USP), onde contribui junto ao Instituto de Ciências Matemáticas e
-            de Computação (ICMC), campus de São Carlos. Possui 12 anos de experiência na área de desenvolvimento de
-            software, com ênfase na análise, construção e arquitetura de sistemas Web e Mobile. Além disso, é
-            certificado nas plataformas .NET (Microsoft), Java (Oracle) e Android (Google). Atualmente é Líder Técnico
-            no time de Educação da DIO, onde é responsável por orquestrar os conteúdos educacionais da plataforma.</p>
+          <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>
+            Sobre
+          </h2>
+              <p>Me chamo Matheus, tenho 28 anos, sou formado em Administração e atualmente estou cursando Sistema de Informação.</p>
+
+              <p>Em Outubro de 2022, analisando as atividades que eu gosto de fazer versus as possibilidades que poderiam me proporcionar engajamento profissional, decidi iniciar um curso de Programação que superou todas as minhas expectativas, e finalmente pude sentir que me encontrei profissionalmente.</p>  
+              
+              <p>Desde então venho estudando e praticando programação na área de Front-End e em busca de um emprego na área e realizar a tão sonhada transição de carreira.</p>
+
+              <p>Em meu GitHub tem alguns dos meus projetos práticos, onde aplico o que aprendi e estou aprendendo.</p>
+
+              <p>Estou muito animado para essa nova fase da minha trajetória, contribuindo para o mercado com meu trabalho e conhecimento.</p>
         </div>
 
         <div class="w3-container w3-card w3-white w3-margin-bottom">
@@ -111,12 +130,10 @@
             <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Experiências
           </h2>
           <div class="w3-container">
-            <h5 class="w3-opacity"><b>Digital Innovation One (DIO)</b></h5>
-            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março 2021 - <span
+            <h5 class="w3-opacity"><b>Front-End</b></h5>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Janeiro 2023 - <span
                 class="w3-tag w3-indigo w3-round">Atual</span></h6>
-            <p>Planejar o roadmap dos conteúdos educacionais da plataforma, tendo em vista as principais tendências de
-              mercado e necessidades das empresas parceiras. Além de garantir que as experiências de aprendizagem tenham
-              total sinergia com a nossa metodologia educacional.</p>
+            <p>Busco minha primeira experiência em uma empresa, até o momento tenho como experiência meus projetos práticos e pessoais</p>
           </div>
         </div>
 
@@ -126,30 +143,29 @@
           </h2>
           <div class="w3-container">
             <h5 class="w3-opacity"><b>Digital Innovation One (DIO)</b></h5>
-            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março 2021 - <span
-                class="w3-tag w3-indigo w3-round">Atual</span></h6>
+            <h6 class="w3-text-indigo">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>Março 2021 - 
+              <span class="w3-tag w3-indigo w3-round">Atual</span>
+            </h6>
             <p>
               Maior plataforma de educação aberta em TI da América Latina, com mais 1 milhão de usuários.
               A DIO possui parcerias com algumas das empresas mais inovadoras do mundo, proporcionando experiências
               de ensino imersivas e com foco em empregabilidade. Nesse contexto, seguem meus principais certificados:
             </p>
             <ul>
-              <li><a href="https://www.dio.me/certificate/762101D2" target="_blank">Formação: Programação Reativa com
-                  Spring WebFlux (36h)</a></li>
-              <li><a href="https://www.dio.me/certificate/07041B99" target="_blank">Curso: Desenvolvimento Mobile Nativo
-                  Para Android (1h)</a></li>
-              <li><a href="https://www.dio.me/certificate/F12AC30B" target="_blank">Curso: Componentes, Layouts e UI/UX
-                  Em Apps Android (3h)</a></li>
-              <li><a href="https://www.dio.me/certificate/3FB20BF1" target="_blank">Curso: Java e Kotlin Juntos!?
-                  Construindo Apps Android (3h)</a></li>
+              <li><a href="https://www.dio.me/certificate/45035F85" target="_blank">Formação: JavaScript Developer (39h)</a></li>
+              <li><a href="https://www.dio.me/certificate/71CF215A" target="_blank">Curso: Trabalhando com Web Components no Front-end (3h)</a></li>
+              <li><a href="https://www.dio.me/certificate/C687A572" target="_blank">Curso: TypeScript para Angular (3h)</a></li>
+              <li><a href="https://www.dio.me/certificate/3FB20BF1" target="_blank">Curso: Módulos Angular (1h)</a></li>
+              <li><a href="https://www.dio.me/certificate/FDC900A5" target="_blank">Curso: Trabalhando com Rotas no Angular (1h)</a></li>
             </ul>
             <hr>
           </div>
           <div class="w3-container">
-            <h5 class="w3-opacity"><b>Universidade de São Paulo (USP)</b></h5>
-            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dezembro 2018 - Agosto 2023
-            </h6>
-            <p>Doutorando em Engenharia de Computação com foco em acessibildiade de conteúdos educacionais.</p>
+            <h5 class="w3-opacity"><b>Universidade Nove de Julho (UNINOVE)</b></h5>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Janeiro 2023</h6>
+            <span class="w3-tag w3-indigo w3-round">Atual</span></h6>
+            <p>Graduação em Sistema de informação.</p>
           </div>
         </div>
 
@@ -157,23 +173,14 @@
           <h2 class="w3-text-grey w3-padding-16">
             <i class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projetos
           </h2>
-          <div class="w3-container">
+          <div class="w3-container" id="projetos">
             <h6 class="w3-text-indigo">
               <i class="fa fa-github fa-fw w3-margin-right"></i>
-              <a href="https://github.com/falvojr/copa-2022-android" target="_blank">falvojr/copa-2022-android</a>
+              <a href="https://github.com/falvojr/copa-2022-android" target="_blank">Carregando...</a>
             </h6>
-            <p>App Android Nativo utilizando a arquitetura MVVM com Kotlin e diversas features do Android Jetpack.</p>
             <hr>
           </div>
-          <div class="w3-container">
-            <h6 class="w3-text-indigo">
-              <i class="fa fa-gitlab fa-fw w3-margin-right"></i>
-              <a href="https://gitlab.com/denilsonbonatti/kubernetes-projeto2-dio"
-                target="_blank">denilsonbonatti/kubernetes-projeto2-dio</a>
-            </h6>
-            <p>Repositório no GitLab com um pipeline configurado em Kubernetes.</p>
-          </div>
-        </div>
+
 
         <!-- End Right Column -->
       </div>
@@ -183,17 +190,16 @@
 
     <!-- End Page Container -->
   </div>
+</div>
 
-  <footer class="w3-container w3-indigo w3-center w3-margin-top">
-    <p>Minhas Redes Sociais</p>
-    <a href="https://github.com/falvojr" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/falvojr" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  </footer>
+<footer class="w3-container w3-indigo w3-center w3-margin-top">
+  <p>Minhas Redes Sociais</p>
+  <a href="https://github.com/mfjaconis/" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/matheus-fernandes-jaconis/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
-  
-  <script  src="/assets/js/api.js"></script>
-  <script  src="/assets/js/main.js"></script>
 </body>
+
 
 </html>
