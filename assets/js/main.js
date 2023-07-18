@@ -4,7 +4,7 @@ function updateProfileInfo(profileData) {
    photo.src = profileData.photo
    photo.alt = profileData.name
 
-   const name = document.querySelector('.w3-container')
+   const name = document.querySelector('.name')
    name.innerText = profileData.name
 
    const job = document.querySelector('.job')
