@@ -1,4 +1,4 @@
-# Currículo Online - mfjaconis
+# Currículo Online - Matheus Fernandes Jaconis
 
 Bem-vindo ao repositório do meu Currículo Online! Este projeto é uma página web que exibe meu currículo de forma interativa e visualmente atraente. Você pode acessar o currículo online em [https://mfjaconis.github.io/cv/](https://mfjaconis.github.io/cv/).
 
