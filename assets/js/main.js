@@ -6,16 +6,16 @@ function updateProfileInfo(profileData) {
 
 
    const job = document.querySelector('.job')
-   job.innerHTML = `<i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="${profileData.jobUrl}">${profileData.job} </a>`
+   job.innerHTML = `<i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="${profileData.jobUrl}" target="_blank">${profileData.job} </a>`
 
    const location = document.querySelector('.location')
-   location.innerHTML = `<i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="${profileData.locationUrl}">${profileData.location} </a>`
+   location.innerHTML = `<i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="${profileData.locationUrl}" target="_blank">${profileData.location} </a>`
    
    const phone = document.querySelector('.phone')
-   phone.innerHTML = `<i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="tel:${profileData.phone}">${profileData.phone} </a>`
+   phone.innerHTML = `<i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="tel:${profileData.phone}" target="_blank">${profileData.phone} </a>`
 
    const email = document.querySelector('.email')
-   email.innerHTML = `<i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="mailto:${profileData.email}">${profileData.email} </a>`
+   email.innerHTML = `<i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="mailto:${profileData.email}" target="_blank">${profileData.email} </a>`
 }
 
 
