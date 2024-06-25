@@ -15,13 +15,24 @@
     },
     {
       "name": "Jogo da memória",
-      "url": "https://mfjaconis.github.io/Porjeto-JS-JogoDaMemoria/pages/game.html",
+      "url": "https://mfjaconis.github.io/Porjeto-JS-JogoDaMemoria/",
       "github": true
     },
     {
-      "name": "Jogo da memória",
-      "url": "https://mfjaconis.github.io/Porjeto-JS-JogoDaMemoria/",
+      "name": "Conversor de moeda",
+      "url": "https://mfjaconis.github.io/DevClub-project-converter-currency/",
+      "github": true
+    },
+    {
+      "name": "Sortear um número inserindo o min e o max",
+      "url": "https://mfjaconis.github.io/DevClub-project-sorteio/",
+      "github": true
+    },
+    {
+      "name": "Pokedex - Consumindo API de PokeApi",
+      "url": "https://github.com/mfjaconis/project-pokedex-js",
       "github": true
     }
+  
   ]
 }
